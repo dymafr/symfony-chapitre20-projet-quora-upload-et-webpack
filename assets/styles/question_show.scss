@@ -1,0 +1,18 @@
+.question-tag {
+    background-color: var(--primary);
+    color: var(--color-primary);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-semi-bold);
+    border-radius: var(--border-radius);
+    padding: 5px 10px;
+}
+
+.question-text,
+.question-response-text {
+    line-height: var(--line-height-hight);
+    white-space: pre-wrap;
+}
+
+small {
+    opacity: 0.7;
+}

@@ -1,0 +1,64 @@
+@use '../mixin' as *;
+
+header {
+    box-shadow: var(--box-shadow);
+}
+
+.header-search {
+    margin: 0 10px;
+    border-radius: var(--border-radius);
+    background-color: var(--gray-light);
+    max-width: 400px;
+    position: relative;
+
+    @include xs {
+        display: none;
+    }
+
+    &-loading {
+        height: 30px;
+    }
+
+    &-result {
+        width: 100%;
+        position: absolute;
+        top: calc(100% + 10px);
+        left: 0px;
+        background-color: white;
+        border-radius: var(--border-radius);
+        box-shadow: var(--box-shadow);
+        padding: 10px;
+
+        a {
+            padding: 10px;
+        }
+    }
+}
+
+.header-search input {
+    border: 0;
+    outline: 0;
+    background-color: var(--gray-light);
+    height: 30px;
+}
+
+.header-logo {
+    width: 150px;
+}
+
+.header-logo img {
+    max-width: 150px;
+}
+
+.burger {
+    font-size: var(--font-size-large);
+}
+
+.menu-xs {
+    a {
+        margin: 10px 15px;
+    }
+
+    border-bottom: var(--border);
+    box-shadow: var(--box-shadow);
+}

@@ -1,0 +1,14 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    color: #636466;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-top: 20px;
+    background-color: #12cbc4;
+    display: inline-block;
+    border-radius: 3px;
+}

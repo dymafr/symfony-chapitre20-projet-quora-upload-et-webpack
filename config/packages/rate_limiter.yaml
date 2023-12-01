@@ -1,0 +1,6 @@
+framework:
+  rate_limiter:
+    password_recovery:
+      policy: fixed_window
+      limit: 4
+      interval: '60 minutes'
